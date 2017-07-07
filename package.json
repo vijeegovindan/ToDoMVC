@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-validator": "^3.2.0",
+    "mongo": "^0.1.0",
+    "mustache": "^2.3.0",
+    "mustache-express": "^1.2.5",
+    "path": "^0.12.7",
+    "sequelize": "^4.2.1",
+    "sequelize-cli": "^2.7.0"
+  },
+  "name": "todomvc",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
