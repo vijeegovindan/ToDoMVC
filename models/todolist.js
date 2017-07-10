@@ -2,7 +2,8 @@
 module.exports = function(sequelize, DataTypes) {
   var todolist = sequelize.define('todolist', {
     title: DataTypes.STRING,
-    completed: DataTypes.BOOLEAN
+    completed: DataTypes.BOOLEAN,
+    order: DataTypes.INTEGER
   }, {
     classMethods: {
       associate: function(models) {
