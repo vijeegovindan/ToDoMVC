@@ -11,11 +11,11 @@ module.exports = {
       title: {
         type: Sequelize.STRING
       },
+      listorder: {
+        type: Sequelize.INTEGER
+      },
       completed: {
         type: Sequelize.BOOLEAN
-      },
-      order: {
-        type: Sequelize.INTEGER
       },
       createdAt: {
         allowNull: false,
